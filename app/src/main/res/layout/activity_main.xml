@@ -8,47 +8,51 @@
 
     <TextView
         android:id="@+id/subject_name"
-        android:layout_width="wrap_content"
+        android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="177dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="176dp"
         android:text="Mobile Computing"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/name"
-        android:layout_width="wrap_content"
+        android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="179dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="174dp"
         android:text="Ghulam Mahial Din"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/subject_name" />
 
     <TextView
         android:id="@+id/Roll_id"
-        android:layout_width="wrap_content"
+        android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="181dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="172dp"
         android:text="BSEF18A539"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name" />
 
     <ImageView
         android:id="@+id/repoImg"
-        android:layout_width="wrap_content"
+        android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="154dp"
         android:layout_marginTop="77dp"
         android:layout_marginEnd="129dp"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Roll_id"
@@ -56,7 +60,7 @@
 
     <Button
         android:id="@+id/btnRepo"
-        android:layout_width="wrap_content"
+        android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="173dp"
         android:layout_marginTop="40dp"
@@ -68,7 +72,7 @@
 
     <Button
         android:id="@+id/btnApp"
-        android:layout_width="wrap_content"
+        android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="170dp"
         android:layout_marginTop="40dp"
