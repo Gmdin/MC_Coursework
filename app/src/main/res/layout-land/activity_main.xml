@@ -10,57 +10,74 @@
         android:id="@+id/subject_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="14dp"
         android:text="Mobile Computing"
         android:textAlignment="center"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="292dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toTopOf="@+id/name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
         android:text="Ghulam Mahial Din"
         android:textAlignment="center"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="288dp"
-        tools:layout_editor_absoluteY="54dp" />
+        app:layout_constraintBottom_toTopOf="@+id/Roll_id"
+        app:layout_constraintEnd_toEndOf="@+id/subject_name"
+        app:layout_constraintTop_toBottomOf="@+id/subject_name" />
 
     <TextView
         android:id="@+id/Roll_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="8dp"
         android:text="BSEF18A539"
         android:textAlignment="center"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="314dp"
-        tools:layout_editor_absoluteY="93dp" />
-
-    <ImageView
-        android:id="@+id/repoImg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        tools:layout_editor_absoluteX="301dp"
-        tools:layout_editor_absoluteY="127dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
 
     <Button
         android:id="@+id/btnRepo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="16dp"
         android:text="Repository Link"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="347dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnApp"
+        app:layout_constraintTop_toBottomOf="@+id/btnApp" />
 
     <Button
         android:id="@+id/btnApp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:text="Makhārij al-ḥurūf App"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="208dp"
-        tools:layout_editor_absoluteY="279dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnRepo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnApp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Roll_id"
+        app:srcCompat="@drawable/commits" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
