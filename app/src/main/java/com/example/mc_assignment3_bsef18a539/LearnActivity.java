@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class LearnActivity extends AppCompatActivity {
 
-    Button btnHalqiyah,btnLahatiyah,btnLisaveyah,btnShajariyahHaafiyah,btnTarfiyah;
+    Button btnHalqiyah,btnLahatiyah,btnLisaveyah,btnShajariyahHaafiyah,btnTarfiyah,btnGhunna;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,7 @@ public class LearnActivity extends AppCompatActivity {
         btnLisaveyah=(Button) findViewById(R.id.btnLisaveyah);
         btnShajariyahHaafiyah=(Button) findViewById(R.id.btnShajariyahHaafiyah);
         btnTarfiyah=(Button) findViewById(R.id.btnTarfiyah);
+        btnGhunna=(Button) findViewById(R.id.btnGhunna);
         btnHalqiyah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,6 +54,13 @@ public class LearnActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(LearnActivity.this,learn_Tarfiyah.class);
+                startActivity(intent);
+            }
+        });
+        btnGhunna.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(LearnActivity.this,learn_gunnah.class);
                 startActivity(intent);
             }
         });
