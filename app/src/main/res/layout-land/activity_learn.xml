@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:text="Lisaveyah"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="@+id/btnNit_eeyah"
         app:layout_constraintTop_toBottomOf="@+id/btnHalqiyah" />
 
     <Button
@@ -58,7 +58,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnLahatiyah" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnNit_eeyah"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
@@ -75,7 +75,7 @@
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/btnNit_eeyah" />
 
     <Button
         android:id="@+id/btnGhunna"

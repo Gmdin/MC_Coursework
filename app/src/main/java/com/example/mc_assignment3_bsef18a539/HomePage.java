@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class HomePage extends AppCompatActivity {
 
-    Button btnLearn;
+    Button btnLearn,btnTest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,11 +17,19 @@ public class HomePage extends AppCompatActivity {
         setContentView(R.layout.activity_home_page);
 
         btnLearn=(Button) findViewById(R.id.btnLearn);
+        btnTest=(Button) findViewById(R.id.btnTest);
 
         btnLearn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(HomePage.this,LearnActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnTest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(HomePage.this,quiz.class);
                 startActivity(intent);
             }
         });

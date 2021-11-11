@@ -4,11 +4,26 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout-land/activity_home_page.xml" value="0.21041666666666667" />
-        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout-land/activity_learn.xml" value="0.3108108108108108" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout-land/activity_learn.xml" value="0.4466666666666667" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout-land/activity_learn_gunnah.xml" value="0.3108108108108108" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout-land/activity_learn_halqiyah.xml" value="0.19479166666666667" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout-land/activity_learn_lahatiyah.xml" value="0.18229166666666666" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout-land/activity_learn_lisaveyah.xml" value="0.3108108108108108" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout-land/activity_learn_nit_eeyah.xml" value="0.3108108108108108" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout-land/activity_learn_shajariyah_haafiyah.xml" value="0.18229166666666666" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout-land/activity_learn_tarfiyah.xml" value="0.3333333333333333" />
         <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout-land/activity_main.xml" value="0.21041666666666667" />
         <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout/activity_home_page.xml" value="0.22" />
-        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout/activity_learn.xml" value="0.1796875" />
-        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout/activity_learn.xml" value="0.3333333333333333" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout/activity_learn_gunnah.xml" value="0.22" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout/activity_learn_halqiyah.xml" value="0.22" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout/activity_learn_lahatiyah.xml" value="0.1796875" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout/activity_learn_lisaveyah.xml" value="0.1796875" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout/activity_learn_nit_eeyah.xml" value="0.1796875" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout/activity_learn_shajariyah_haafiyah.xml" value="0.165625" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout/activity_learn_tarfiyah.xml" value="0.1796875" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Mc_Assignment3_Bsef18a539/app/src/main/res/layout/activity_quiz.xml" value="0.16666666666666666" />
       </map>
     </option>
   </component>

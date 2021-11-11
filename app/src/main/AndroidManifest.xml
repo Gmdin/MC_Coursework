@@ -10,6 +10,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mc_Assignment3_Bsef18a539">
         <activity
+            android:name=".quiz"
+            android:exported="false" />
+        <activity
+            android:name=".learn_Nit_eeyah"
+            android:exported="false" />
+        <activity
+            android:name=".learn_gunnah"
+            android:exported="false" />
+        <activity
+            android:name=".learn_Tarfiyah"
+            android:exported="false" />
+        <activity
+            android:name=".learn_Shajariyah_Haafiyah"
+            android:exported="false" />
+        <activity
+            android:name=".learn_Lisaveyah"
+            android:exported="false" />
+        <activity
+            android:name=".learn_Lahatiyah"
+            android:exported="false" />
+        <activity
+            android:name=".learn_Halqiyah"
+            android:exported="false" />
+        <activity
+            android:name=".Learn_Ghunna"
+            android:exported="false" />
+        <activity
+            android:name=".Learn_Lisaveyah"
+            android:exported="false" />
+        <activity
+            android:name=".Learn_Nit_eeyah"
+            android:exported="false" />
+        <activity
+            android:name=".Learn_Tarfiyah"
+            android:exported="false" />
+        <activity
+            android:name=".Learn_Lahatiyah"
+            android:exported="false" />
+        <activity
             android:name=".LearnActivity"
             android:exported="false" />
         <activity
